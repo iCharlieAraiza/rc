@@ -1,0 +1,14 @@
+h1{
+  color: blue;
+}
+
+#root{
+  width: 70%;
+  margin: 0 auto;
+}
+
+.info-block{
+  box-sizing: border-box;
+  background-color: aqua;
+  padding: 1rem
+}
