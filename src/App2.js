@@ -11,11 +11,14 @@ import State from './components/State/State'
 
 import Todo from './components/todo3/Todo';
 
+import Hooks from './components/Hooks/Hooks'
+
 class App extends Component{
     render(){
         return ( <Wrapper>
                     <Todo></Todo>
                     <State></State>
+                    <Hooks></Hooks>
                 </Wrapper>)
     }
 }
