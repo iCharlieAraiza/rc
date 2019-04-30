@@ -13,12 +13,16 @@ import Wrapper from './components/wrapper';
 
 // import Hooks from './components/Hooks/Hooks'
 
-import Starwars from './components/Starwars/Starwars'
+// import Starwars from './components/Starwars/Starwars'
+
+// import FormName from './components/FormName/FormName'
+ 
+import FormV1 from './components/FormV1/FormV1'
 
 class App extends Component{
     render(){
         return ( <Wrapper>
-                    <Starwars></Starwars>
+                    <FormV1></FormV1>
                 </Wrapper>)
     }
 }
