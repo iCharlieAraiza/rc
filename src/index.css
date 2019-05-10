@@ -45,3 +45,12 @@ input[type=checkbox] {
 input[type=checkbox]:focus {
   outline: 0;
 }
+
+nav ul{
+  display: flex;
+}
+
+nav ul li{
+  margin-right: 1rem;
+  list-style: none;
+}
