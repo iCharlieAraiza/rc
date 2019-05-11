@@ -8,8 +8,8 @@ class Navbar extends Component{
             <nav>
                 <ul>
                     <li><NavLink exact to="/">Home</NavLink></li>
-                    <li>About</li>
-                    <li>Profile</li>
+                    <li><NavLink to="/profile">Profile</NavLink></li>
+                    <li>ABout</li>
                 </ul>
             </nav>
         )

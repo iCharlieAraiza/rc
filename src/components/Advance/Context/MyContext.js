@@ -13,7 +13,8 @@ class MyProvider extends Component{
 
     componentDidMount(){
         const newState = {...Data};
-        newState.activeUser= newState.users[1];
+        newState.activeUser.name= newState.users[1].name;
+        newState.activeUser.description= newState.users[1].description;
         
         this.setState({...newState})
 

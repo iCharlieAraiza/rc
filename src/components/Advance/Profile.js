@@ -1,7 +1,7 @@
 import React, {Component} from 'react'
 import MyContext from './Context/MyContext'
 
-class About extends Component{
+class Profile extends Component{
 
     state={user:'tutut'};
 
@@ -25,8 +25,9 @@ class About extends Component{
                 <MyContext.Consumer>
                     { context=>{
                         return(<React.Fragment>
-                            <strong>Nombre: </strong> <span>{context.activeUser.name}</span>
-                        </React.Fragment>)
+                                 <div><strong>Name: </strong> <span>{context.activeUser.name}</span></div>
+                                 <div><strong>Description: </strong> <span>{context.activeUser.description}</span></div>
+                            </React.Fragment>)
                     }} 
                 </MyContext.Consumer>
 
@@ -36,4 +37,4 @@ class About extends Component{
 
 }
 
-export default About
+export default Profile

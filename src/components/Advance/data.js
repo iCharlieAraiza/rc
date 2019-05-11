@@ -1,9 +1,9 @@
 const Data = {        
         users:[
-            {id:1, name: 'Carlos', cart:[]},
-            {id:2, name: 'María', cart:[]},
-            {id:3, name: 'Lois', cart:[]},
-            {id:4, name: 'Joseph', cart:[]},
+            {id:1, name: 'Carlos', cart:[], description:'Lorem pdaspkdp sdal k'},
+            {id:2, name: 'María', cart:[], description:'sldsñdñas ld lsak dlksa'},
+            {id:3, name: 'Lois', cart:[], description:'sld,añs,dñlas'},
+            {id:4, name: 'Joseph', cart:[], description:'sdmaskmdlkasm'},
         ],
         
         products:[
@@ -13,7 +13,7 @@ const Data = {
             {id:4, name: 'Macbook Pro', type:'computer'},
         ],
         
-        activeUser:'Bailando popi',
+        activeUser:{},
 }
 
 export default Data;
